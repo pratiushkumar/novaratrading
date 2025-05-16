@@ -20,7 +20,7 @@ public class   HomeController {
 //                true
 //        );
 //        return new ResponseEntity<ApiResponse>(res,HttpStatus.ACCEPTED);
-    @GetMapping
+    @GetMapping("/")
     public String home() {
         return "welcome to the novara trading platform ";
     }
